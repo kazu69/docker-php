@@ -19,6 +19,6 @@ Also possible to use or from github to get
 ```sh
 $ git clone https://github.com/kazu69/docker-php.git
 $ cd docker-php
-$ docker build -t kazu69/dockerphp .
+$ docker build -t kazu69/docker-php .
 ```
 
