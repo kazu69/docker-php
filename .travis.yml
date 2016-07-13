@@ -1,0 +1,13 @@
+language: python
+python:
+  - 2.7
+
+services:
+  - docker
+
+install:
+  - docker build -t php .
+  - docker run --name php -d php
+
+script:
+  - docker ps -a | grep php
