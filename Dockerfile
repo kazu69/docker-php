@@ -39,3 +39,5 @@ RUN chmod +x /usr/local/bin/phpbrew
 
 RUN echo "source ~/.phpbrew/bashrc\nphpbrew use ${PHP_VERSION}" >> ~/.bashrc
 RUN phpbrew init && phpbrew update --old && phpbrew install ${PHP_VERSION} +default +mysql +mb
+
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer

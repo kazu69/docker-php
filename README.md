@@ -3,7 +3,8 @@ PHP Docker container
 
 [![Build Status](https://travis-ci.org/kazu69/docker-php.svg?branch=5.3.29)](https://travis-ci.org/kazu69/docker-php)
 
-> In this Dockerfile by using the phpbrew you have installed the php
+> This Docker container is installing the php in phpbrew.
+> It also includes package management tool composer of php.
 
 Installation
 -----
