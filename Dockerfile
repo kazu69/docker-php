@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER kazu69 "kazu.69.web+docker@gmail.com"
+MAINTAINER kazu69
 
 ENV PHP_VERSION 5.3.29
 
