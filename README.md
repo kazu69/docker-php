@@ -9,7 +9,7 @@ Installation
 The easiest way to do this is to get from Docker registry
 
 ```sh
-$ docker pull kazu69/php:5.3.29
+$ docker pull kazu69/php:5.6.26
 ```
 
 Also possible to use or from github to get
